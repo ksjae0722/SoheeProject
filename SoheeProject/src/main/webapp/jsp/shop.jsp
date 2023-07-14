@@ -11,7 +11,7 @@
 	<meta content="Free HTML Templates" name="description">
 
 	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="icon">
+	<link href="../img/favicon.ico" rel="icon">
 
 	<!-- Google Web Fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,10 +21,10 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
 	<!-- Libraries Stylesheet -->
-	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+	<link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
 	<!-- Customized Bootstrap Stylesheet -->
-	<link href="css/style.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -57,7 +57,7 @@
 	<div class="row align-items-center py-3 px-xl-5">
 		<div class="col-lg-3 d-none d-lg-block">
 			<!-- 로고 부분 -->
-			<a href="" class="text-decoration-none">
+			<a href="index.jsp" class="text-decoration-none">
 				<h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">M</span>Morae TDAT</h1>
 			</a>
 		</div>
