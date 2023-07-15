@@ -34,18 +34,18 @@
 		<div class="row bg-secondary py-2 px-xl-5">
 			<div class="col-lg-6 d-none d-lg-block">
 				<div class="d-inline-flex align-items-center">
-					<a class="text-dark" href="Controller.do">자주 묻는 질문</a>
+					<a class="text-dark" href="#">자주 묻는 질문</a>
 					<span class="text-muted px-2">|</span>
-					<a class="text-dark" href="Controller.do">고객센터</a>
+					<a class="text-dark" href="#">고객센터</a>
 				</div>
 			</div>
 			<div class="col-lg-6 text-center text-lg-right">
 				<div class="d-inline-flex align-items-center">
 					<!-- SNS계정 -->
-					<a class="text-dark px-2" href="Controller.do">
+					<a class="text-dark px-2" href="#">
 						<i class="fab fa-instagram"></i>
 					</a>
-					<a class="text-dark pl-2" href="Controller.do">
+					<a class="text-dark pl-2" href="#">
 						<i class="fab fa-youtube"></i>
 					</a>
 					<!--
@@ -58,7 +58,7 @@
 		<div class="row align-items-center py-3 px-xl-5">
 			<div class="col-lg-3 d-none d-lg-block">
 				<!-- 로고 부분 -->
-				<a href="Controller.do" class="text-decoration-none">
+				<a href="<c:url value="/index.do"/>" class="text-decoration-none">
 					<h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">M</span>Morae TDAT</h1>
 				</a>
 			</div>
