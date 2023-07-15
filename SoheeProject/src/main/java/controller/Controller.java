@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import main.java.dto.CustomerDTO;
+
 public class Controller extends HttpServlet{
 	private static final long serialVersionUID = 1L;
 	
@@ -37,7 +39,7 @@ public class Controller extends HttpServlet{
 				RequestDispatcher rd = request.getRequestDispatcher("./jsp/contact.jsp");
 				rd.forward(request, response);						
 		} else if (command.equals("/detail.do")) { 		// 제품 상세 페이지
-				requestDetail(request);
+				requestDetail(request,response);
 				RequestDispatcher rd = request.getRequestDispatcher("./jsp/detail.jsp");
 				rd.forward(request, response);	
 		} else if (command.equals("/login.do")) {	// login페이지
@@ -45,28 +47,34 @@ public class Controller extends HttpServlet{
 				RequestDispatcher rd = request.getRequestDispatcher("./jsp/login.jsp");
 				rd.forward(request, response);
 		} else if (command.equals("/register.do")) { 	// 회원가입 페이지
-				requestRegister(request);
+				requestRegister(request, response);
 				RequestDispatcher rd = request.getRequestDispatcher("./jsp/register.do");
 				rd.forward(request, response);
-		}else if (command.equals("/shop.do")) { 	// 상품 페이지
+		} else if (command.equals("/shop.do")) { 	// 상품 페이지
 				requestShop(request);
 				RequestDispatcher rd = request.getRequestDispatcher("./jsp/shop.do");
 				rd.forward(request, response);				
+		} else if (command.equals("/heart.do")) { 	// 찜 페이지
+			requestShop(request);
+			RequestDispatcher rd = request.getRequestDispatcher("./jsp/heart.do");
+			rd.forward(request, response);				
 		} 
 	}
 
 	private void requestShop(HttpServletRequest request) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 
-	private void requestRegister(HttpServletRequest request) {
-		// TODO Auto-generated method stub
+	public void requestRegister(HttpServletRequest request, HttpServletResponse response) {
+		CustomerDTO c = new CustomerDTO();
+		
+		
 		
 	}
 
-	private void requestDetail(HttpServletRequest request) {
-		// TODO Auto-generated method stub
+	private void requestDetail(HttpServletRequest request, HttpServletResponse response) {
+		
 		
 	}
 
@@ -89,5 +97,4 @@ public class Controller extends HttpServlet{
 		// TODO Auto-generated method stub
 		
 	}
-
 }
