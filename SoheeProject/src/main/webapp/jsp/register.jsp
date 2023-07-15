@@ -168,35 +168,31 @@
         <h3 class="font-weight-bold text-dark mb-4">회원가입</h3>
         <form action="Controller.do">
             <div class="form-group">
-                <label>성</label>
-                <input class="form-control" type="text" placeholder="강">
-            </div>
-            <div class="form-group">
                 <label>이름</label>
-                <input class="form-control" type="text" placeholder="모래">
+                <input class="form-control" type="text" placeholder="모래" name="userName">
             </div>
             <div class="form-group">
                 <label>이메일</label>
-                <input class="form-control" type="text" placeholder="moraecute@cat.com">
+                <input class="form-control" type="text" placeholder="moraecute@cat.com" name="email">
             </div>
             <div class="form-group">
                 <label>전화번호</label>
-                <input class="form-control" type="text" placeholder="010-2021-1009">
+                <input class="form-control" type="text" placeholder="010-2021-1009" name="phoneNumber">
             </div>
             <div class="form-group">
                 <label>주소</label>
-                <input class="form-control" type="text" placeholder="모래시 모래구 모래동 모래로 1길 1">
+                <input class="form-control" type="text" placeholder="모래시 모래구 모래동 모래로 1길 1" name="address">
             </div>
             <div class="form-group">
                 <label>우편번호</label>
-                <input class="form-control" type="text" placeholder="123-456">
+                <input class="form-control" type="text" placeholder="123-456" name="z_code">
             </div>
             <div class="form-group">
                 <label>아이디</label>
-                <input class="form-control" type="text" placeholder="moraesocute">
+                <input class="form-control" type="text" placeholder="moraesocute" name="userID">
             </div>            <div class="form-group">
                 <label>비밀번호</label>
-                <input class="form-control" type="password" placeholder="password">
+                <input class="form-control" type="password" placeholder="password" name="userPassword">
             </div>
             <div>
                 <button class="btn btn-primary btn-block border-0 py-3" type="submit">회원가입</button>
