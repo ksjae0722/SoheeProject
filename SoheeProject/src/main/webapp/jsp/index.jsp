@@ -299,20 +299,20 @@
 					<div class="col-md-4 mb-5">
 						<h5 class="font-weight-bold text-dark mb-4">빠른 메뉴</h5>
 						<div class="d-flex flex-column justify-content-start">
-							<a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
-							<a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
-							<a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
-							<a class="text-dark mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
-							<a class="text-dark mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-							<a class="text-dark" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>Home</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>Our Shop</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
+							<a class="text-dark" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
 						</div>
 					</div>
 					<div class="col-md-4 mb-5">
 						<h5 class="font-weight-bold text-dark mb-4">모래</h5>
 						<div class="d-flex flex-column justify-content-start">
-							<a class="text-dark mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>냥스타그램</a>
-							<a class="text-dark mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>이모네 유튜브</a>
-							<a class="text-dark mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>집사그램</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>냥스타그램</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>이모네 유튜브</a>
+							<a class="text-dark mb-2" href="Controller.do"><i class="fa fa-angle-right mr-2"></i>집사그램</a>
 						</div>
 					</div>
 					<div class="col-md-4 mb-5">
@@ -336,10 +336,10 @@
 		<div class="row border-top border-light mx-xl-5 py-4">
 			<div class="col-md-6 px-xl-0">
 				<p class="mb-md-0 text-center text-md-left text-dark">
-					&copy; <a class="text-dark font-weight-semi-bold" href="#">Morae TDAT</a>. All Rights Reserved. Designed
+					&copy; <a class="text-dark font-weight-semi-bold" href="Controller.do">Morae TDAT</a>. All Rights Reserved. Designed
 					by
-					<a class="text-dark font-weight-semi-bold" href="#">Rayson Joanna</a><br>
-					Distributed By <a href="#" target="_blank">Rayson Joanna</a>
+					<a class="text-dark font-weight-semi-bold" href="Controller.do">Rayson Joanna</a><br>
+					Distributed By <a href="Controller.do" target="_blank">Rayson Joanna</a>
 				</p>
 			</div>
 			<div class="col-md-6 px-xl-0 text-center text-md-right">
@@ -350,7 +350,7 @@
 	<!-- Footer End -->
 
 	<!-- Back to Top -->
-	<a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+	<a href="Controller.do" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
 	<!-- JavaScript Libraries -->
